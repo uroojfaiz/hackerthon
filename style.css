@@ -347,18 +347,22 @@ font-size: 12px;
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #302e2e;
+        
+        background-color: #08f54f;
         width: 100%;
         padding: 20px;
     }
     #menu-toggle:checked + .menu-icon+.nav-links{
 display: flex;
+
     }
     .nav-links li{
         margin-bottom: 20px;
+  
     }
     .menu-icon{
         display: block;
+      
     }
    .register{
     display: none;
