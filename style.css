@@ -24,11 +24,9 @@ body{
 
 .logo{
    
-    margin-right: 50px;
+     margin-right: 50px; 
 }
-.nex{
-    margin-left: 50px;
-}
+
 
 .nav-links{
     list-style: none;
@@ -36,7 +34,7 @@ body{
     display: flex;
 }
 .nav-links li{
-margin-right: 20px;
+ margin-right: 20px; 
 }
 .nav-links a{
     color: rgb(0, 0, 0);
@@ -57,39 +55,13 @@ color: rgb(0, 0, 0);
     display: none;
 }
 
-/* .navbar{
-    
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    top: 0;
-}
-.navbar ul{
-    list-style: none;
-   
-    display: flex;
-}
-.navbar li{
-margin-right: 20px;
-}
-.navbar a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-.navbar a:hover{
-    color:aqua;
-    font-weight: bold;
-    border-bottom:white 2px solid ;
-} */
 .register{
     border: 1px solid green;
     color: rgb(255, 255, 255);
-    margin-right: ;
+   
     background-color: green;
     padding: 10px;
-    margin-right: 90px;
+    /* margin-right: 90px; */
     
 }
 .logo{
@@ -97,6 +69,7 @@ margin-right: 20px;
 }
 .head{
     position: relative;
+
 }
 .h1{
     position: absolute;
@@ -119,12 +92,13 @@ margin-right: 20px;
     font-size: 1rem;
 }
 .img1{
- margin-left: 800px;
-margin-top: -200px;
+ margin: 10px 0 0 800px;
  width: 300px;
 }
 .but1{
-    margin: 200px 0 0 150px;
+    position: absolute;
+    left: 150px;
+    top: 220px;
     padding: 10px;
     background-color: green;
     color: white;
@@ -390,13 +364,19 @@ display: flex;
     display: none;
    }
     .img1 {
-      margin: 0;
-      width: 250px;
-      margin-top: 20px;
+      margin: 20px 300px;
+     width: 250px;
+ position: static;
+      
     }
   
     .head {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      position: static;
     }
   
     .h1, .h2, .p1, .but1 {
@@ -407,12 +387,22 @@ display: flex;
     .sec2 img {
       width: 100%;
       margin-top: 20px;
+    
+     
+    }
+    .imges{
+width: 20px;
     }
   
-    .h4, .p3, .but2 {
+    .h4, .p3  {
       position: static;
       text-align: center;
       margin: 10px;
+    }
+    .but2 {
+      position: static;
+      text-align: center;
+      margin: 10px 0 0 200px;
     }
   
     .sec3, .card-head {
@@ -434,15 +424,15 @@ display: flex;
       text-align: center;
       margin: 10px;
     }
-    .h6{
-        display: none;
-    }
-    .h7{
-        display: none;
-    }
-    .p4{
-        display: none;
-    }
+   
+     .h6, .h7, .p4{
+     
+text-align: center;
+margin: 1150px 0 0 120px;
+     }
+     .more{
+      margin: 2px 0 15px 180px;
+     }
   
     .footer-container {
       flex-direction: column;
@@ -457,38 +447,4 @@ display: flex;
   }
   
 
-  @media  (max-width: 768px) {
-    .navbar ul {
-      gap: 10px;
-    }
-  
-    .img1 {
-      margin-left: 400px;
-      width: 300px;
-    }
-  
-    .h1, .h2, .p1, .but1 {
-      left: 50px;
-    }
-  
-    .card-head {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .sec2 img {
-      width: 80%;
-    }
-  
-    .unlock {
-      margin-left: 0;
-      width: 80%;
-    }
-  
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-   
-  
+ 
